@@ -1,0 +1,132 @@
+$green1: #006837;
+$green2: #009245;
+$green3: #8cc63f;
+$green4: #22b573;
+$green5: #d9e021;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Lato;
+  margin: 30px 50px;
+  letter-spacing: 1px;
+}
+
+#bottle {
+  height: 450px;
+  width: 100%;
+  margin-top: -100px;
+}
+
+.content_emailBox {
+  &_input {
+    margin: auto;
+    width: max-content;
+  }
+
+  &_title {
+    margin: 50px 0 20px;
+  }
+}
+/// INPUT BUTTON
+button,
+input {
+  outline: none;
+  padding: 10px 20px;
+  border: 2px solid $green2;
+  font-weight: bold;
+}
+
+input {
+  border-radius: 20px 0 0 20px;
+  float: left;
+  border-right: none;
+  color: $green2;
+
+  &::placeholder {
+    color: $green2;
+  }
+}
+
+button {
+  cursor: pointer;
+  border-radius: 0 20px 20px 0;
+  float: right;
+  color: white;
+  background-color: $green2;
+}
+/// TYPO
+h2,
+h3 {
+  margin: 0;
+}
+
+h2 {
+  font-weight: 900;
+  color: $green2;
+  font-size: 70px;
+}
+
+h3 {
+  text-align: center;
+  color: $green2;
+}
+///SVG
+path {
+  stroke-linecap: round;
+}
+
+.pathBottle {
+  fill: white;
+  stroke: #000;
+  stroke-width: 3px;
+}
+
+.wave {
+  fill: none;
+  stroke-miterlimit: 10;
+  stroke-width: 3px;
+
+  &-g1 {
+    stroke: $green1;
+  }
+
+  &-g2 {
+    stroke: $green2;
+  }
+
+  &-g3 {
+    stroke: $green3;
+  }
+
+  &-g4 {
+    stroke: $green4;
+  }
+
+  &-g5 {
+    stroke: $green5;
+  }
+}
+
+.text {
+  font-size: 24px;
+  font-family: Lato-Black, Lato;
+
+  &-g1 {
+    fill: $green1;
+  }
+
+  &-g2 {
+    fill: $green2;
+  }
+
+  &-g3 {
+    fill: $green5;
+  }
+
+  &-g4 {
+    fill: $green3;
+  }
+}

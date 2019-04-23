@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Lato;
+  margin: 30px 50px;
+  letter-spacing: 1px;
+}
+
+#bottle {
+  height: 450px;
+  width: 100%;
+  margin-top: -100px;
+}
+
+.content_emailBox_input {
+  margin: auto;
+  width: max-content;
+}
+.content_emailBox_title {
+  margin: 50px 0 20px;
+}
+
+button,
+input {
+  outline: none;
+  padding: 10px 20px;
+  border: 2px solid #009245;
+  font-weight: bold;
+}
+
+input {
+  border-radius: 20px 0 0 20px;
+  float: left;
+  border-right: none;
+  color: #009245;
+}
+input::placeholder {
+  color: #009245;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 0 20px 20px 0;
+  float: right;
+  color: white;
+  background-color: #009245;
+}
+
+h2,
+h3 {
+  margin: 0;
+}
+
+h2 {
+  font-weight: 900;
+  color: #009245;
+  font-size: 70px;
+}
+
+h3 {
+  text-align: center;
+  color: #009245;
+}
+
+path {
+  stroke-linecap: round;
+}
+
+.pathBottle {
+  fill: white;
+  stroke: #000;
+  stroke-width: 3px;
+}
+
+.wave {
+  fill: none;
+  stroke-miterlimit: 10;
+  stroke-width: 3px;
+}
+.wave-g1 {
+  stroke: #006837;
+}
+.wave-g2 {
+  stroke: #009245;
+}
+.wave-g3 {
+  stroke: #8cc63f;
+}
+.wave-g4 {
+  stroke: #22b573;
+}
+.wave-g5 {
+  stroke: #d9e021;
+}
+
+.text {
+  font-size: 24px;
+  font-family: Lato-Black, Lato;
+}
+.text-g1 {
+  fill: #006837;
+}
+.text-g2 {
+  fill: #009245;
+}
+.text-g3 {
+  fill: #d9e021;
+}
+.text-g4 {
+  fill: #8cc63f;
+}
+
+/*# sourceMappingURL=style.css.map */
