@@ -1,6 +1,4 @@
-let xs = []
-let t = 0
-
+let xs = [], t = 0
 for (var i = 0; i <= 230; i++) {
   xs.push(i)
 }
@@ -10,10 +8,10 @@ function statSin(id, pos) {
 }
 
 function animate() {
-  document.getElementById("wave1").setAttribute("d", generatePath(297))
-  document.getElementById("wave3").setAttribute("d", generatePath(416))
-  document.getElementById("wave5").setAttribute("d", generatePath(450))
-  document.getElementById("wave7").setAttribute("d", generatePath(559))
+  document.getElementById("wave--delicious").setAttribute("d", generatePath(297))
+  document.getElementById("wave--weight").setAttribute("d", generatePath(416))
+  document.getElementById("wave--muscle").setAttribute("d", generatePath(450))
+  document.getElementById("wave--health").setAttribute("d", generatePath(559))
   t += 0.3
   requestAnimationFrame(animate)
 }
