@@ -1,2 +1,2 @@
 # smoothie
-readme
+https://akbytnar.github.io/smoothie/
